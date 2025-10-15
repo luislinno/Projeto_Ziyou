@@ -15,4 +15,4 @@ f_olist_order_stagin = pd.merge(df_olist_orders_silver, df_olist_order_items_sil
 f_olist_order_gold = pd.merge(f_olist_order_stagin, df_olist_products_silver, on='product_id', how='left')
 
 # Salvando os dados agregados na camada gold
-f_olist_order_gold.to_csv("C:\Users\Nando\Desktop\Projeto_Ziyou\Projeto_Ziyou\data\gold\\olist_order_gold.csv")
+f_olist_order_gold.to_csv("C:\\Users\\Nando\\Desktop\\Projeto_Ziyou\\Projeto_Ziyou\\data\\gold\\olist_order_gold.csv")
