@@ -31,4 +31,4 @@ def FileMove(FilePathOrigin, filePatchDestiny):
         return "Path don't exist"
 
 if __name__=='__main__':
-    ('Teste de Branch')
+    print('Teste de Branch')
