@@ -29,3 +29,6 @@ def FileMove(FilePathOrigin, filePatchDestiny):
         return 'Moved Files'
     else: 
         return "Path don't exist"
+
+if __name__=='__main__':
+    ('Teste de Branch')
